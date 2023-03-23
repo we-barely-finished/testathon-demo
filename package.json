@@ -1,0 +1,11 @@
+{
+  "name": "testathon-demo",
+  "version": "1.0.0",
+  "description": "Small demo project for the EQS testathon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nemanja Bukatarevic",
+  "license": "ISC"
+}

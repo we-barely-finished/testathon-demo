@@ -1,0 +1,10 @@
+# Ignored Node.js files:
+node_modules/
+package-lock.json
+
+# Ignored IDE-related files:
+.idea/
+*.iml
+
+# Ignored MacOS-related files:
+.DS_Store
