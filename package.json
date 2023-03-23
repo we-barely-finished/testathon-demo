@@ -1,11 +1,24 @@
 {
   "name": "testathon-demo",
   "version": "1.0.0",
-  "description": "Small demo project for the EQS testathon.",
-  "main": "index.js",
+  "description": "Small demo project for the EQS Testathon.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build .",
+    "test": "mocha --require ts-node/register test/*",
+    "coverage": "nyc --reporter=html npm run test",
+    "prettier": "prettier --write ."
   },
   "author": "Nemanja Bukatarevic",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.5",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "2.8.6",
+    "typescript": "^5.0.2",
+    "ts-node": "^10.9.1"
+  }
 }

@@ -1,9 +1,15 @@
 # Ignored Node.js files:
-node_modules/
+node_modules
+build
+dist
 package-lock.json
 
+# Ignored test coverage files:
+coverage
+.nyc_output
+
 # Ignored IDE-related files:
-.idea/
+.idea
 *.iml
 
 # Ignored MacOS-related files:
